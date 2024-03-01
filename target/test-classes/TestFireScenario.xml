@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test Fire Login">
+		<classes>
+			<class name="testNGPrograms.AnnotationScenarion">
+				<methods>
+					<include name="LaunchApp"/>
+					<include name="EnterLoginDeatils"/>
+					<include name="VerifyLogin"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Small Business Page">
+		<classes>
+			<class name="testNGPrograms.AnnotationScenarion">
+				<methods>
+					<include name="LaunchApp"/>
+					<include name="EnterLoginDeatils"/>
+					<include name="SmallBusinessPageLaunch"/>
+					<include name="VerifySmallBusinessPage"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>	
+</suite>

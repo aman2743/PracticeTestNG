@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demo Suite">
+	<listeners>
+		<listener class-name="captureScreenshotFramework.ListenerClass"/>
+	</listeners>
+	<test name="Test1">
+		<classes>
+			<class name="captureScreenshotFramework.ScreenshotTest">
+				<methods>
+					<include name="GoogleSearch"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test2">
+		<classes>
+			<class name="captureScreenshotFramework.ScreenshotTest">
+				<methods>
+					<include name="OrangeHRM"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test3">
+		<classes>
+			<class name="captureScreenshotFramework.ScreenshotTest">
+				<methods>
+					<include name="LoginTestFire"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

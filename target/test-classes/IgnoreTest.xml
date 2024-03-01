@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demo Suite">
+	<test name="Searching">
+		<classes>
+			<class name="com.itcaree4u.IgnoreTest.DemoTest1"/>
+            <class name="com.itcaree4u.IgnoreTest.DemoTest2"/>
+		</classes>
+	</test>
+	
+</suite>
